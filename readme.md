@@ -20,9 +20,10 @@ To install the package as a development dependency, follow these steps:
 
 Make sure to replace the URL with the URL of your Git repository.
 
-2. Require the package in your Laravel project as a development dependency: ```bash
-   composer require --dev joeriabbo/laravel-api-markdown-tree: dev-master
+2. Require the package in your Laravel project as a development dependency:
 
+```bash
+   composer require --dev joeriabbo/laravel-api-markdown-tree: dev-master
 ```
 
 3. If you're using Laravel 5.4 or earlier, register the service provider in your config/app.php file:
