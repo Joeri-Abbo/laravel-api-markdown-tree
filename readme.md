@@ -16,10 +16,13 @@ To install the package as a development dependency, follow these steps:
 "url": "https://github.com/JoeriAbbo/laravel-api-markdown-tree.git"
 }
 ],
+```
+
 Make sure to replace the URL with the URL of your Git repository.
 
 2. Require the package in your Laravel project as a development dependency: ```bash
-composer require --dev joeriabbo/laravel-api-markdown-tree: dev-master
+   composer require --dev joeriabbo/laravel-api-markdown-tree: dev-master
+
 ```
 
 3. If you're using Laravel 5.4 or earlier, register the service provider in your config/app.php file:
@@ -41,7 +44,8 @@ To generate API documentation, run the following command in your Laravel project
 php artisan apidocs:generate
 ```
 
-By default, this command will create a `api_docs.md` file in your Laravel project root directory with the tree view of the
+By default, this command will create a `api_docs.md` file in your Laravel project root directory with the tree view of
+the
 API routes in Markdown format. You can specify a custom output file by passing it as an argument, like this:
 
 ```bash
